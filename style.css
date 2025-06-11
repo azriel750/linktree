@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 196, 1) 0%,
+    rgba(255, 97, 100, 1) 50%,
+    rgba(176, 0, 18, 1) 100%
+  );
+  font-family: "Rubik", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.wrapper {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+  width: 95%;
+  max-width: 500px;
+}
+
+.profile-top {
+  height: 200px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/22/19/17/buildings-1850129_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.profile-image {
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+}
+
+.profile-image img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.profile-bottom {
+  padding: 100px 20px 30px;
+  text-align: center;
+}
+
+.main-infos .name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.email {
+  color: #666;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.ville {
+  font-size: 16px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.ville ion-icon {
+  margin-right: 5px;
+  color: #388eff;
+}
+
+.links {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.links a {
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #ddd;
+}
+
+.bio h2,
+.contact h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #222;
+}
+
+.bio p,
+.contact p {
+  margin-top: 10px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* Responsive léger */
+@media screen and (min-width: 550px) {
+  .wrapper {
+    width: 100;
+  }
+  
+
+  .main-infos .name {
+    font-size: 28px;
+  }
+}
