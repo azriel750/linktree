@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+@import url("http://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -27,13 +27,13 @@ body {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
-  width: 95%;
+  width: 90%;
   max-width: 500px;
 }
 
 .profile-top {
   height: 200px;
-  background-image: url("https://cdn.pixabay.com/photo/2016/11/22/19/17/buildings-1850129_960_720.jpg");
+  background-image: url("http://cdn.pixabay.com/photo/2016/11/22/19/17/buildings-1850129_960_720.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
